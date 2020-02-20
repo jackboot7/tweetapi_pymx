@@ -5,6 +5,12 @@ import requests
 from requests_oauthlib import OAuth1
 
 
+"""
+Documentación completa sobre el uso y manejo del API de Twitter está disponible en
+https://developer.twitter.com/
+"""
+
+
 # Estos key puede obtenerse desde el registro de aplicación en Twitter
 oauth_consumer_token = api_key = os.environ.get("TWITTER_API_KEY")
 oauth_consumer_secret = api_secret_key = os.environ.get("TWITTER_API_SECRET")
